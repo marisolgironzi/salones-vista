@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { SalonesComponent } from './salones.component';
+
+describe('SalonesComponent', () => {
+  let component: SalonesComponent;
+  let fixture: ComponentFixture<SalonesComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [SalonesComponent]
+    });
+    fixture = TestBed.createComponent(SalonesComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
