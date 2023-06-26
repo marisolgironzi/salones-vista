@@ -5,6 +5,10 @@
     height: 100%;
 }
 
+.row{
+    background-color: var(--fondo-oscuro-1);
+}
+
 #footer{
     flex-wrap: wrap;
     align-content: flex-end;
