@@ -1,0 +1,10 @@
+@import url(./../../styles.css);
+
+#titleHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fuente-clara-1);
+    background-color: var(--fondo-oscuro-1);
+    height: 100px;
+}
