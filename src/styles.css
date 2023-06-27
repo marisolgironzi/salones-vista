@@ -6,6 +6,7 @@
     --fondo-oscuro-2: rgb(31, 29, 29);
     --fondo-claro-1: rgb(255, 192, 156);
     --fondo-claro-2: rgb(246, 246, 246);
+    --fondo-trans: rgba(246, 246, 246, 0.582);
 
     /*fuentes*/
     --fuente-oscura-1: rgb(15, 15, 15);

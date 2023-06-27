@@ -3,9 +3,38 @@
 #carrusel{
     max-width: 100%;
     max-height: 500px;
+    display: flex;
+}
+
+.carousel-caption{
+    background-color: var(--fondo-trans);
+    height: 16%;
 }
 
 img{
     max-width: 100%;
     max-height: 500px;
+}
+
+h5{
+    color: var(--fuente-oscura-2);
+    font-weight:bold;
+}
+
+h4{
+    color: var(--fuente-clara-2)
+}
+
+hr{
+    color: var();
+}
+
+.resaltado{
+    color: var(--fuente-clara-1);
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto{
+    color: var(--fuente-clara-2);
 }
