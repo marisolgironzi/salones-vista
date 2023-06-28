@@ -1,9 +1,5 @@
 @import url(./../../../styles.css);
 
-.carousel-caption{
-    background-color: var(--fondo-trans);
-}
-
 img{
     width: 1200px;
     height: 250px;
@@ -70,6 +66,15 @@ a:hover{
     margin-left: 6px;
 }
 
+select{
+    background-color: var(--fondo-claro-2);
+    color: var(--fuente-oscura-1);
+    font-size: 14px;
+    margin: 5px;
+    width: 200px;
+    margin-left: 6px;
+}
+
 option {
     background-color: var(--fondo-claro-2);
     color: var(--fuente-oscura-2);
@@ -83,8 +88,4 @@ textarea{
     color: var(--fuente-oscura-2);
     font-size: 14px;
     margin: 5px;
-}
-
-select{
-    margin-left: 6px;
 }

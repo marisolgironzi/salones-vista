@@ -1,0 +1,52 @@
+@import url(./../../../styles.css);
+
+#carrusel{
+    max-width: 100%;
+    max-height: 500px;
+    display: flex;
+}
+
+.carousel-caption{
+    background-color: var(--fondo-trans);
+    
+}
+
+.title{
+    color: var(--fuente-clara-2);
+    font-weight:bold;
+}
+
+h4{
+    color: var(--fuente-clara-2)
+}
+
+hr{
+    color: var(--fuente-oscura-2);
+    font-weight:bold;
+}
+
+.cards{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background: var(--fondo-claro-1);
+    text-align: center;
+}
+
+.card-title{
+    color: var(--fuente-oscura-2);
+    font-weight:bold;
+}
+
+a{
+    background-color: var(--fondo-oscuro-2);
+    border-color: var(--fondo-oscuro-2);
+}
+
+a:hover{
+    background-color: var(--fondo-claro-2);
+    border: var(--fondo-claro-2);
+    color: var(--fuente-oscura-2);
+}
