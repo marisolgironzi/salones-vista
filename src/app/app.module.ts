@@ -16,6 +16,8 @@ import { SalonesComponent } from './salones/salones.component';
   import { FluoritaComponent } from './formPresup/fluorita/fluorita.component';
   import { GranateComponent } from './formPresup/granate/granate.component';
   import { TurquesaComponent } from './formPresup/turquesa/turquesa.component';
+import { RespuestaPresupComponent } from './formPresup/respuesta-presup/respuesta-presup.component';
+import { RespuestaContactoComponent } from './contacto/respuesta-contacto/respuesta-contacto.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { SalonesComponent } from './salones/salones.component';
     FluoritaComponent,
     GranateComponent,
     TurquesaComponent,
-
+    RespuestaPresupComponent,
+    RespuestaContactoComponent,
   ],
   imports: [
     BrowserModule,

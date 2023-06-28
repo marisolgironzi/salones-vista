@@ -8,12 +8,12 @@
 
 .carousel-caption{
     background-color: var(--fondo-trans);
-    height: 16%;
+    
 }
 
 img{
-    max-width: 100%;
-    max-height: 500px;
+    width: 900px;
+    height: 380px;
 }
 
 h5{
@@ -26,7 +26,8 @@ h4{
 }
 
 hr{
-    color: var();
+    color: var(--fuente-oscura-2);
+    font-weight:bold;
 }
 
 .resaltado{

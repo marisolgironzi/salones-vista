@@ -1,0 +1,33 @@
+@import url(./../../styles.css);
+
+.card{
+    background: var(--fondo-claro-1);
+    color: var(--fuente-oscura-1);
+    font-weight:bold;
+    text-align: center;
+}
+
+img{
+    width: 1200px;
+    height: 250px;
+}
+
+a{
+    background-color: var(--fondo-oscuro-2);
+    border-color: var(--fondo-oscuro-2);
+}
+
+a:hover{
+    background-color: var(--fondo-claro-2);
+    border: var(--fondo-claro-2);
+    color: var(--fuente-oscura-2);
+}
+
+h4{
+    color: var(--fuente-clara-2)
+}
+
+hr{
+    color: var(--fuente-oscura-2);
+    font-weight:bold;
+}

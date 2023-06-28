@@ -12,6 +12,8 @@ import { AgataComponent } from './formPresup/agata/agata.component';
 import { FluoritaComponent } from './formPresup/fluorita/fluorita.component';
 import { GranateComponent } from './formPresup/granate/granate.component';
 import { TurquesaComponent } from './formPresup/turquesa/turquesa.component';
+import { RespuestaPresupComponent } from './formPresup/respuesta-presup/respuesta-presup.component';
+import { RespuestaContactoComponent } from './contacto/respuesta-contacto/respuesta-contacto.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch:'full' },
@@ -23,8 +25,10 @@ const routes: Routes = [
     { path: 'fluorita', component: FluoritaComponent },
     { path: 'granate', component: GranateComponent },
     { path: 'turquesa', component: TurquesaComponent },
+    { path: 'respuestaPresup', component: RespuestaPresupComponent },
 
   { path: 'contacto', component: ContactoComponent },
+    { path: 'respuestaContacto', component: RespuestaContactoComponent }
 ];
 
 @NgModule({
